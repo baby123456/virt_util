@@ -1,0 +1,4 @@
+#! /bin/sh
+switch=br1
+ifconfig $1 up 
+brctl addif ${switch} $1
