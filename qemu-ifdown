@@ -1,0 +1,4 @@
+#! /bin/sh
+switch=br1
+brctl delif ${switch} $1
+ifconfig $1 down 
